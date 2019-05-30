@@ -1,15 +1,15 @@
-# AnagramSolver
+# anagram-solver
 
-**A program that solves anagrams**
+A tool to solve anagrams
 
-## Overview:
+## Overview
 
 This program uses a list of words to create a database file using MapDB which 
 acts as a dictionary to check the validity of potential words. The algorithm
 uses recursion and therefore becomes quite slow for words more than 8 letters
 in length.
 
-## Instructions:
+## Instructions
 
 Edit the 'anagrams' string array in the source file to solve whichever anagrams you like.
 
@@ -19,7 +19,7 @@ This program uses [MapDB](https://github.com/jankotek/mapdb/) to store and acces
 
 The words were taken from [here](https://github.com/dwyl/english-words).
 
-## To-Do:
+## To-Do
 
 * Make the algorithm better for longer words
 * Implement a UI so that users can enter words to solve
